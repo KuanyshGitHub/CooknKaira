@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.RussianActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/okroshkaImageView"
+        android:src="@drawable/okroshka"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ingredients"
+        android:textStyle="bold"
+        android:id="@+id/okroshkaIngredients"
+        android:layout_below="@id/okroshkaImageView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/okroshkaIngredients"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/okroshkaDivider1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• 10 cups of boiling water \n• 4 tbsp chicken bouillon base \n• 3 hard boiled eggs, chopped \n• 1 quart buttermilk \n• 5 green onions, minced well \n• ½ English cucumber, chopped \n• 1 cup ham or kohlbasa, chopped \n• 2 lemons, juiced \n• ½ cup celery, chopped fine \n• fresh dill, chopped fine, to taste \n• salt, to taste \n"
+        android:id="@+id/okroshkaIngredientsUnder"
+        android:layout_below="@+id/okroshkaDivider1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Directions"
+        android:textStyle="bold"
+        android:id="@+id/okroshkaDirections"
+        android:layout_below="@+id/okroshkaIngredientsUnder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/okroshkaDivider2"
+        android:layout_below="@+id/okroshkaDirections"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. Add chicken bouillon base to boiling water, stir, set aside to cool to room temperature.\n2. While broth is cooling, prepare vegetables, eggs and ham.\n3. When broth is room temperature, add buttermilk and lemon juice, vegetables, eggs and ham.\n4. Stir well.\n5. Add salt and dill to taste.\n6. Refrigerate.\n7. Soup is best served well chilled."
+        android:id="@+id/okroshkaDirectionsUnder"
+        android:layout_below="@+id/okroshkaDivider2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

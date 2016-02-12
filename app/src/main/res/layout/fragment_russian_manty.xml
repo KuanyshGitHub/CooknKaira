@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.RussianActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:id="@+id/mantyImageView"
+                android:src="@drawable/manty"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                android:id="@+id/mantyIngredients"
+                android:layout_below="@id/mantyImageView"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/mantyIngredients"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/mantyDivider1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="• 1½ pounds of lean lamb, finely ground \n• 1½ cups of finely chopped onions \n• 3 2 teaspoons of salt \n• ½ teaspoon of freshly ground black pepper \n• 6 tablespoons of butter \n• 1½ cups of flour \n• 1½ cups of water \n• ¼ cup of finely cut fresh dill leaves or fresh mint \n• ¼ cup of unflavored yogurt\n"
+                android:id="@+id/mantyIngredientsUnder"
+                android:layout_below="@+id/mantyDivider1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Directions"
+                android:textStyle="bold"
+                android:id="@+id/mantyDirections"
+                android:layout_below="@+id/mantyIngredientsUnder"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/mantyDivider2"
+                android:layout_below="@+id/mantyDirections"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. For the filling, mix the ground lamb, chopped onions, salt and pepper in a mixing bowl and beat with a wooden spoon until well combined.\n2. Pour the flour into a large mixing bowl, make a deep well in the center and pour in the water.\n3. Mix vigorously until smooth, then gather the dough into a ball and transfer it to a lightly floured surface.\n4. Roll out into a rectangle about 1/16 inch thick.\n5. With a 4½ inch cookie cutter, cut out 18 to 20 circles of dough and spoon about 5 teaspoons of filling in the center of each.\n6. Top each circle with 1 teaspoon or butter and draw up the sides of the circles so that they meet in the middle, enclosing the filling.\n7. Dip your fingers in water, pinch the top closed and twist it to form a small pouch.\n8. Steam the manty in the following fashion: pour enough water into a large kettle to come about 1 inch up the side.\n9. Bring to a boil over moderate heat and set a colander into the kettle.\n10. Place the manty in the colander, cover the kettle securely and lower the heat.\n11. Steam for 15 minutes, then transfer the manty to individual bowls or to a large serving bowl.\n12. Sprinkle with the dill or mint and serve with yogurt, either as an accompaniment to the soup of alone as a light luncheon dish.\n"
+                android:id="@+id/mantyDirectionsUnder"
+                android:layout_below="@+id/mantyDivider2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+</LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

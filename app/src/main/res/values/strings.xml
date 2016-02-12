@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kazakh">KazakhActivity</string>
+    <string name="title_activity_russian">RussianActivity</string>
+    <string name="title_activity_uzbek_acivity">UzbekAcivity</string>
+    <string name="title_activity_besh">besh</string>
+    <string name="title_activity_besh2">Besh2Activity</string>
+    <string name="title_activity_nation">NationActivity</string>
+
+    <string name="title_section1">BeshBarmak</string>
+    <string name="title_section2">Kuyrdak</string>
+    <string name="title_section3">Naryn</string>
+    <string name="title_section4">Manty</string>
+    <string name="title_section5">Pelmeni</string>
+    <string name="title_section6">Okroshka</string>
+    <string name="title_section7">Plov</string>
+    <string name="title_section8">Dymlama</string>
+    <string name="title_section9">Lagman</string>
+    <string name="title_activity_russian_acitivity">RussianAcitivity</string>
+    <string name="title_activity_uzbek">UzbekActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+
+</resources>

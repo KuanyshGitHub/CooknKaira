@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.KazakhActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/kuyrImageView"
+        android:src="@drawable/kuyr"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ingredients"
+        android:textStyle="bold"
+        android:id="@+id/kuyrIngredients"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/kuyrIngredients"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• 800 g of mutton or beef, or horse-flesh, or camel's flesh, or saiga's flesh, or wild goat's flesh \n• 3 onions \n• 150 g of fat for frying \n• 250 g of broth \n• greens, salt, spice and sour cream to taste.\n"
+        android:id="@+id/kuyrIngredientsUnder"
+        android:layout_below="@+id/kuyrDivider1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Garnish"
+        android:textStyle="bold"
+        android:id="@+id/kuyrGarnish"
+        android:layout_below="@+id/kuyrIngredientsUnder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/kuyrDivider2"
+        android:layout_below="@+id/kuyrGarnish"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• 2 kg of potatoes \n• 150 g of green peas \n• 250 g of tomatoes \n• 250 g of carrots \n"
+        android:id="@+id/kuyrGarnishUnder"
+        android:layout_below="@+id/kuyrDivider2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Marinade"
+        android:textStyle="bold"
+        android:id="@+id/kuyrMarinade"
+        android:layout_below="@+id/kuyrGarnishUnder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/divider3"
+        android:layout_below="@+id/kuyrMarinade"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• a piala of 3% vinegar \n• 50 g of oil \n"
+        android:id="@+id/kuyrMarinadeUnder"
+        android:layout_below="@+id/divider3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Directions"
+        android:textStyle="bold"
+        android:id="@+id/directions"
+        android:layout_below="@+id/kuyrMarinadeUnder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/kuyrDivider4"
+        android:layout_below="@+id/directions"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. Meat is cut in pieces 30-40 g each and fried in hot fat with onion and pepper, salted to taste; then laurel leaf and broth are added and the meat is stewed to readiness.\n2. If kuyrdak is made of saiga's or wild goat's flesh the meat must be beforehand soaked in 3% vinegar with addition of a small quantity of oil for 4–6 hours.\n3. As garnishes to kuyrdak boiled, fried or stewed with the meat potatoes, boiled carrots, green peas and tomatoes can be served.\n4 The dish is strewed with greens to taste.."
+        android:id="@+id/kuyrDirectionsUnder"
+        android:layout_below="@+id/kuyrDivider4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

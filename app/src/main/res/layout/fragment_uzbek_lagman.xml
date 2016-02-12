@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.UzbekActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView8" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lagmanImageView"
+        android:src="@drawable/lagman"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                android:id="@+id/lagmanIngredients"
+                android:layout_below="@id/lagmanImageView"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/lagmanIngredients"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/lagmanDivider1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="• ½ kg meat (beef, or mutton) \n• noodles \n• ½ cup of vegetable oil \n• 1 marinated pepper \n• 2 big onions \n• 2 medium carrots \n• 2 cloves of garlic \n• 3 big green radishes \n• ½ teaspoon red pepper \n• 2 – 3 tomatoes (or 3 tablespoons of tomato paste) \n"
+                android:id="@+id/lagmanIngredientsUnder"
+                android:layout_below="@+id/lagmanDivider1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Directions"
+                android:textStyle="bold"
+                android:id="@+id/lagmanDirections"
+                android:layout_below="@+id/lagmanIngredientsUnder"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/lagmanDivider2"
+                android:layout_below="@+id/lagmanDirections"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Chop the meat into very small pieces and saute with butter and the red pepper in a kazan or heavy-bottomed pot.\n2. After about 5–7 minutes add ⅓ cup of cold water.\n3. Bring it to a boil and then add the onions, carrots, garlic, green radishes, and tomatoes.\n4. Steam in low heat for 30 minutes.\n5. Turn up the heat and stir for about 5 minutes.\n6. Add cold water (depending on the number of people you are cooking for, approximately 1.5 to 2 cups per person) and bring to a boil again.\n7. Lower the heat and keep for 30 minutes more.\n8. In a separate pot prepare spaghetti or linguine noodles.\n9. Put the pasta in bowls and cover with the sauce (to make the dish more interesting feel free to add other vegetables such as eggplant. You can also use home-made noodles or egg noodles).\n"
+                android:id="@+id/lagmanDirectionsUnder"
+                android:layout_below="@+id/lagmanDivider2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

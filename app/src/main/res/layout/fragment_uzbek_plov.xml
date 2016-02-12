@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.UzbekActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView9" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/plovImageView"
+        android:src="@drawable/plov"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                android:id="@+id/plovIngredients"
+                android:layout_below="@id/plovImageView"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/plovIngredients"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/plovDivider1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="• 5 tablespoons oil \n• salt, pepper to taste \n• 2 cups rice \n• 1 kg beef or mutton, cut into cubes \n• 2 – 3 fresh peppers chopped \n• 5 – 10 cloves of garlic, whole \n• 2 – 3 large onions chopped \n• 5 – 6 large carrots chopped \n"
+                android:id="@+id/plovIngredientsUnder"
+                android:layout_below="@+id/plovDivider1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Directions"
+                android:textStyle="bold"
+                android:id="@+id/plovDirections"
+                android:layout_below="@+id/plovIngredientsUnder"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/plovDivider2"
+                android:layout_below="@+id/plovDirections"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Wash and soak the rice.\n2. Heat the oil in a kazan (large, heavy pot) until hot; add the meat, cooking until brown on all sides.\n3. Add the carrots, onions, and peppers, and cook until tender.\n4. Add 5 cups of water and then all the rice so that the water covers the rice completely.\n5. Push the cloves of garlic under the surface of the rice.\n6. Cover and lower the heat a little.\n7. Cover and cook until rice is done, about 30 minutes.\n8. There are many variations of plov so feel free to experiment with raisins, dried apricots or other vegetables.\n"
+                android:id="@+id/plovDirectionsUnder"
+                android:layout_below="@+id/plovDivider2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

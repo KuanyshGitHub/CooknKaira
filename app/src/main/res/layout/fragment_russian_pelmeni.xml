@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.project.RussianActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView6" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:id="@+id/pelmenImageView"
+                android:src="@drawable/pelmen"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                android:id="@+id/pelmenIngredients"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/pelmenImageView"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/pelmenIngredients"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/pelemenDivider1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="• 1 pound ground Beef \n• 1 medium Onion, minced \n• 1 tablespoon chopped fresh dill or 1 tsp. dried dill \n• salt, pepper \n• Pelmeni/Vareniki dough \n• White of 1 small egg, beaten \n• water, Chicken or beef broth \n• 1/2 cup butter \n"
+                android:id="@+id/pelmenIngredientsUnder"
+                android:layout_below="@+id/pelemenDivider1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Directions"
+                android:textStyle="bold"
+                android:id="@+id/pelmenDirections"
+                android:layout_below="@+id/pelmenIngredientsUnder"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/pelmenDivider2"
+                android:layout_below="@+id/pelmenDirections"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Mix ground Beef, Onion, dill, salt and pepper to taste and enough water, about 1 cup, to make soft mixture.\n2. Roll out Pelmeni/Vareniki Dough, 3 or 4 at a time, to 3-inch circles. Place 1-tablespoon filling on each dough round. \n3. Brush edges with water. Fold to form half moons, pinch opposite ends to one another to seal. Repeat with remaining  ballsof dough.\n4. Brush pelmeni with beaten egg white. Bring large pot full of salted water to boil. Without crowding, drop pelmeni into boiling water, stirring to prevent sticking, until the pelmeni come to the surface, about 4 - minutes. Remove with slotted spoon. Melt butter over medium heat and drizzle over pelmeni. Or serve pelmeni with sour cream. Makes 100 pelmeni.\n"
+                android:id="@+id/pelmenDirectionsUnder"
+                android:layout_below="@+id/pelmenDivider2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
